@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'gigs',
+    'gigr_app',
 ]
 
 MIDDLEWARE = [
@@ -76,7 +77,6 @@ TEMPLATES = [
         'DIRS': [os.path.join(BASE_DIR, 'gigr_app', 'templates')],
     },
 ]
-
 
 
 WSGI_APPLICATION = 'gigr_app.wsgi.application'
